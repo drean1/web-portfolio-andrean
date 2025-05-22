@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrean Portfolio</title>
+    <link href="dist/output.css" rel="stylesheet" />
+    </head>
+  <body>
+    <!-- Header Start -->
+     <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-lg text-primary block py-6">drean_tan</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg dark:bg-dark lg:dark:bg-transparent dark:shadow-slate-500 rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">About Me</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Portfolio</a>
+                            </li>
+                             <li class="group">
+                                <a href="#education" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Education</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Contact</a>
+                            </li>
+                            <li class="group">
+                                <a href="/CV Andrean Updated.pdf" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Resume</a>
+                            </li>
+                            <li class="mt-3 lg:mt-0 flex items-center pl-8">
+                                <div class="flex">
+                                    <span class="mr-2 text-sm text-slate-500">light</span>
+                                    <input type="checkbox" class="hidden" id="dark-toggle" />
+                                    <label for="dark-toggle">
+                                        <div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
+                                            <div class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out"></div>
+                                        </div>
+                                    </label>
+                                    <span class="ml-2 text-sm text-slate-500">dark</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+     </header>
+     <!-- Header End -->
+
+    <!-- Hero Section Start -->
+     <section id="home" class="pt-36 dark:bg-dark">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-primary md:text-xl">Hello Everyone👋 , 
+                        I'm <span class="block font-bold text-slate-900 text-4xl mt-1 lg:text-5xl dark:text-white">Andrean</span></h1>
+                    <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Fresh Graduate | IT Support & <span class="text-dark dark:text-white">Want to be Front-End Programmer</span></h2>
+                    <p class="font-medium text-slate-400 mb-10 leading-relaxed">As an aspiring Front-End developer, 
+                        i'm currently learning HTML, CSS, tailwind css, Javascript, and <span class="text-dark font-bold dark:text-white">frameworks like React.</span></p>
+
+                    <a href="#contact" class="rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:opacity-80 hover:shadow-lg">Contact Me</a>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="relative mt-10 lg:mt-9 lg:right-0">
+                        <img src="dist/img/Foto_Andrean.png" alt="Andrean" class="relative z-10 max-w-full mx-auto"/>
+                        <span class="absolute -bottom-20 left-1/2 -translate-x-1/2 md:scale-125">
+                            <svg width="300" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#14b8a6" 
+                            d="M46.8,-42.3C57.2,-24.3,59.8,-5,55.2,11.7C50.7,28.4,39,42.6,23.6,50.8C8.1,58.9,-11.1,61,-24.9,
+                            53.6C-38.6,46.3,-46.8,29.4,-49.7,12.5C-52.5,-4.3,-50.1,-21.2,-41,-38.9C-31.8,-56.6,-15.9,-75.2,1.2,-76.1C18.2,
+                            -77,36.4,-60.3,46.8,-42.3Z" transform="translate(100 100) scale(1.3)" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Hero Section End -->
+
+     <!-- About Section Start -->
+     <section id="about" class="pt-36 pb-32 dark:bg-dark">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h4 class="font-bold uppercase text-primary text-lg mb-3">About Me</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl dark:text-white">Keep Learning, 加油 💪</h2>
+                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">an IT Support with a strong interest in Front-End Development. 
+                        I’m currently learning HTML, CSS, Tailwind CSS, JavaScript, and React to build responsive and modern websites. 
+                        Passionate about tech and design, I’m working to become a skilled Front-End Developer.</p>
+                </div>
+                <div class="w-full px-4 lg:w-1/2">
+                    <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10 dark:text-white">Let's Be Friends</h3>
+                    <p class="font-medium text-base text-secondary mb-6 lg:text-lg">I'm always open to new opportunities, collaboration, or simply connecting with like minded people.
+                        feel free to reach out through social media or email, let's stay in touch!
+                    </p>
+                    <div class="flex items-center">
+                        <!-- Github -->
+                         <a href="https://github.com/drean1" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover-text-white">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 
+                            3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 
+                            1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 
+                            12.297c0-6.627-5.373-12-12-12"/></svg>
+                         </a>
+
+                         <!-- Linkedin -->
+                          <a href="https://www.linkedin.com/in/andrean-2522b1234/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover-text-white">
+                           <svg xmlns="http://www.w3.org/2000/svg" 
+                           width="20" class="fill-current" height="24" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 
+                           0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
+                         </a>
+
+                         <!-- Instagram -->
+                          <a href="https://www.instagram.com/drean_tan18/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover-text-white">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current" height="24" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 
+                            4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 
+                            4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 
+                            3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 
+                            6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                         </a>
+
+                         <!-- Discord -->
+                          <a href="https://discord.com/andrean_18/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover-text-white">
+                           <svg role="img" width="20" class="fill-current" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Discord</title>
+                           <path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 
+                           1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 
+                           0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 
+                           0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 
+                           2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"/></svg>
+                         </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- About Section End -->
+
+     <!-- Portfolio Section start -->
+      <section id="portfolio" class="pt-36 pb-16 bg-slate-100 dark:bg-slate-800">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">PORTFOLIO</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 dark:text-white">My Project</h2>
+                    <p class="font-medium text-md text-secondary">All of the project below were created during my time at school and while working on my thesis.
+                        Although i'm still learning, i always try to give my best and continue to grow with each experience.
+                    </p>
+                </div>
+            </div>
+
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/portfolio/1.png" alt="Final Project Collage" width="w-full" />
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Final Project IoT CCTV Monitoring System (Collage)</h3>
+                    <p class="font-medium text-base text-secondary">This research discusses the design and development of a CCTV security monitoring system
+                                based on an Arduino microcontroller. The aim of this research is to develop an advanced
+                                and efficient security system compared to conventional CCTV systems.</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/portfolio/2.png" alt="Login Page" width="w-full" />
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Mikrotik Login Page (School)</h3> 
+                    <p class="font-medium text-base text-secondary">Designed a customized login page for MikroTik Hotspot using HTML and CSS, imporving the user interface
+                                and branding for local network Users.</p>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- Portfolio Section end -->
+
+      <!-- Education & Skills Start -->
+<section id="education" class="pt-36 pb-32 dark:bg-dark">
+  <div class="container">
+    <div class="w-full px-4 mb-10 text-center">
+      <h4 class="font-bold uppercase text-primary text-lg mb-3">Education & Skills</h4>
+      <h2 class="font-bold text-dark text-3xl mb-5 lg:text-4xl dark:text-white">My Background</h2>
+      <p class="text-base text-secondary lg:text-lg">Here are some details about my education and my skills.</p>
+    </div>
+    <div class="flex flex-wrap justify-center">
+      <!-- Education -->
+      <div class="w-full px-4 mb-10 lg:w-1/2">
+        <h3 class="font-semibold text-dark text-2xl mb-4 dark:text-white">🎓 Education</h3>
+        <ul class="list-disc pl-5 text-secondary dark:text-slate-300">
+          <li class="mb-2">
+            <span class="font-bold text-dark dark:text-white">Buddhi Dharma University</span> – Bachelor Degree Informatics Engineering (2020 - 2024)
+          </li>
+          <li>
+            <span class="font-bold text-dark dark:text-white">SMK Bonavita Tangerang</span> – Computer & Network Engineering (2017 - 2020)
+          </li>
+        </ul>
+      </div>
+      <!-- Skills -->
+      <div class="w-full px-4 mb-10 lg:w-1/2">
+        <h3 class="font-semibold text-dark text-2xl mb-4 dark:text-white">🛠️ Skills</h3>
+        <div class="flex flex-wrap gap-3">
+          <span class="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium">Computer Networking</span>
+          <span class="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium">Computer Hardware & Software</span>
+          <span class="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium">Computer Troubleshooting</span>
+          <span class="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium">HTML</span>
+          <span class="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium">CSS</span>
+          <span class="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium">Tailwind CSS</span>
+          <span class="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium">JavaScript</span>
+          <span class="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium">Node JS</span>
+          <span class="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium">Mikrotik</span>
+          <span class="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium">English</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Education & Skills End -->
+
+      <!-- Contact Section Start -->
+      <section id="contact" class="pt-36 pb-32 dark:bg-slate-800">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">CONTACT</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 dark:text-white">Contact Me</h2>
+                    <p class="font-medium text-md text-secondary">I'm currently looking for opportunities to apply and grow my skills in real-world projects.
+                        if you have any job openings, internships, or collaborations, don't hesitate to get in touch!</p>
+                </div>
+            </div>
+            
+            <form class="contact-form" action="https://formspree.io/f/xeogwavo" method="POST">
+            <div class="w-full lg:w-2/3 lg:mx-auto">
+            <div class="w-full px-4 mb-8">
+            <label for="name" class="text-base font-bold text-primary uppercase">Name</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" />
+            </div>
+
+            <div class="w-full px-4 mb-8">
+            <label for="email" class="text-base font-bold text-primary uppercase">Email</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" />
+            </div>
+
+            <div class="w-full px-4 mb-8">
+            <label for="message" class="text-base font-bold text-primary uppercase">Message</label>
+            <textarea
+                id="message"
+                name="message"
+                required
+                class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"></textarea>
+            </div>
+
+            <div class="w-full px-4">
+            <button type="submit" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Send</button>
+            </div>
+        </div>
+    </form>
+ </div>
+</section>
+       <!-- Contact Section End -->
+
+       <!-- Footer Start -->
+        <footer class="bg-dark pt-24 pb-12">
+            <div class="container">
+                <div class="flex flex-wrap justify-between">
+                    <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+                        <h2 class="font-bold text-4xl text-white mb-5">Let's Connect !</h2>
+                        <h3 class="font-bold text-4xl text-white mb-5">Personal Info</h3>
+                        <p>tanandrean6@gmail.com</p>
+                        <p>Perumahan Villa Tomang Baru Blok AB no.3A</p>
+                        <p>Kab.Tangerang</p>
+                    </div>
+                    <div class="w-full px-4 mb-12 md:w-1/3">
+                        <h3 class="font-semibold text-xl text-white mb-5">Link</h3>
+                        <ul class="text-slate-300 space-y-2 text-left">
+                            <li>
+                                <a href="#home" class="inline-block text-base hover:text-primary mb-3">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about" class="inline-block text-base hover:text-primary mb-3">About Me</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio" class="inline-block text-base hover:text-primary mb-3">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#education" class="inline-block text-base hover:text-primary mb-3">Education</a>
+                            </li>
+                            <li>
+                                <a href="#contact" class="inline-block text-base hover:text-primary mb-3">Contact</a>
+                            </li>
+                            <li>
+                                <a href="/CV Andrean Updated.pdf" class="inline-block text-base hover:text-primary mb-3">Resume</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="w-full pt-10 border-t border-slate-700">
+                    <div class="flex items-center justify-center mb-5">
+                        <!-- Github -->
+                         <a href="https://github.com/drean1" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover-text-white">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 
+                            3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 
+                            1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 
+                            12.297c0-6.627-5.373-12-12-12"/></svg>
+                         </a>
+
+                         <!-- Linkedin -->
+                          <a href="https://www.linkedin.com/in/andrean-2522b1234/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover-text-white">
+                           <svg xmlns="http://www.w3.org/2000/svg" 
+                           width="20" class="fill-current" height="24" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 
+                           0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
+                         </a>
+
+                         <!-- Instagram -->
+                          <a href="https://www.instagram.com/drean_tan18/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover-text-white">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current" height="24" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 
+                            4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 
+                            4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 
+                            3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 
+                            6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                         </a>
+
+                         <!-- Discord -->
+                          <a href="https://discord.com/andrean_18/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover-text-white">
+                           <svg role="img" width="20" class="fill-current" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Discord</title>
+                           <path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 
+                           1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 
+                           0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 
+                           0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 
+                           2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"/></svg>
+                         </a>
+                    </div>
+                    <p class="font-medium text-sm text-slate-500 text-center">Created by <a href="https://www.instagram.com/@drean_tan18/" target="_blank" class="font-bold text-primary">Andrean</a>, using <a href="https://tailwindcss.com" target="_blank" class="font-bold text-sky-500">Tailwind CSS.</a> 
+                        with help from tutorials on the <a href="https://www.youtube.com/webprogrammingUNPAS" target="_blank" class="font-bold text-red-500">Web Programming UNPAS</a> Youtube channel</p>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+        <!-- Back to top start -->
+        <a href="#home" class="fixed bottom-4 right-4 z-[9999] justify-center items-center hidden h-14 w-14 rounded-full bg-primary p-4 hover:animate-pulse" id="to-top">
+            <span class="block h-5 w-5 rotate-45 border-t-2 border-l-2 mt-2"></span>
+        </a>
+
+         <!-- Back to top end  -->
+
+     <script src="dist/js/script.js"></script>
+  </body>
+</html>
+    
